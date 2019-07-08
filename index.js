@@ -10,6 +10,6 @@ function increaseRankBy(n){
   const upRank = document.getElementbyId('app').querySelectorAll('ul.ranked-list');
   
   for (var i = 0; i<upRank.length; i++){
-    
+    upRank[i].innerHTML
   }
 }
